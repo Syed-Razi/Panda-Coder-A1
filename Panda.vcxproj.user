@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>1 1 README.txt CODED.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArgumentsHistory>1 1 README.txt CODED.txt|</LocalDebuggerCommandArgumentsHistory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>1 1 README.txt CODED.txt</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <LocalDebuggerCommandArgumentsHistory>1 1 "C:\Programming\Compiler\Panda\x64\Debug\README.txt" "C:\Programming\Compiler\Panda\x64\Debug\CODED.txt"|1 1 "C:\Programming\Compiler\Panda\README.txt" "C:\Programming\Compiler\Panda\CODED.txt"|1 1 README.txt CODED.txt h|1 1 README.txt CODED.txt|</LocalDebuggerCommandArgumentsHistory>
+    <LocalDebuggerWorkingDirectory>.\x64\Debug</LocalDebuggerWorkingDirectory>
+  </PropertyGroup>
+</Project>

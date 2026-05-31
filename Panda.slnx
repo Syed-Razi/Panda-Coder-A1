@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Panda.vcxproj" Id="9ab58a22-15ec-4def-9ba4-1ff887d49b18" />
+</Solution>
