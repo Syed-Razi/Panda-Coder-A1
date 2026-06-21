@@ -7,8 +7,8 @@
 #define STR_LANGNAME "Panda"
 
 /* Logical constants */
-#define PANDA_TRUE 1
-#define PANDA_FALSE 0
+#define panda_TRUE 1
+#define panda_FALSE 0
 
 #define INVALID NULL
 #define EOF_CHAR '\0'
@@ -25,6 +25,7 @@ typedef unsigned char   panda_byte;
 
 typedef long            panda_long;
 typedef double          panda_doub;
+
 
 /*
 ------------------------------------------------------------
@@ -46,6 +47,7 @@ enum PROGRAMS {
 
 /* Function declarations */
 panda_intg main1Coder(panda_intg argc, panda_strg* argv);
+panda_intg main2Reader(panda_intg argc, panda_strg* argv);
 
 panda_void printLogo();
 panda_void errorPrint(panda_strg fmt, ...);

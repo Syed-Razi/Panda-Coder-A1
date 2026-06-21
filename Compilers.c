@@ -37,6 +37,10 @@ panda_intg main(panda_intg argc, panda_strg* argv) {
         printf("\n[Option '%c': Starting CODER .....]\n\n", PGM_CDR);
         main1Coder(argc, argv);
         break;
+    case PGM_RDR:
+        printf("\n[Option '%c': Starting READER .....]\n\n", PGM_RDR);
+        main2Reader(argc, argv);
+        break;
 
     default:
         printf("Invalid option.\n");
